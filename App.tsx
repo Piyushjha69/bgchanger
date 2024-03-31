@@ -19,10 +19,9 @@ import {
 function App(): React.JSX.Element {
 
   const [randombackground, setRandomBackground] = useState("#FFFFFF");
-  console.log("hi")
+  
 
   const generateColor = () => {
-    console.log("hi")
     const hexRange = "0123456789ABCDEF"
     let color= "#"
 
